@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#banner{
+    color: black;
+    width: 100%;
+    
+    
+}
+
+#corpo{
+    background-color: rgb(0, 0, 0);
+}
+.botoes{
+    color: aqua;
+    background-color: rgb(35, 20, 177);
+    width: 220px;
+    height: 50px;
+    
+    
+    
+}
+
+.botoes:hover{
+    background: blueviolet;
+}
+.divbotao{
+    display: flex;
+    justify-content: space-around;
+}
+.titulo{
+    color: #3000B6;
+    text-align: start;
+    font-size: 70px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: oblique;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+margin-left: 15px;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 405px;
+    height: 50px;
+    color: #C036D3;
+}
+.adicionais{
+    color: #3000B6;
+    background-color: rgb(141, 20, 255);
+    height: 200px;
+    width: 100%;
+}
+.creditos{
+    display: flex;
+    flex-direction: column;
+    color: #3000B6;
+    margin-left: 15px;
+}
+.paragrafo{
+    color: white;
+}
+.foto{
+    border-radius: 100%;
+    height: 200px;
+    width: auto;
+}
+.imagens{
+    display: flex;
+}
+.imagens img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+#corpohumanas{
+    background-color: #F68E05;
+}
+#corpolinguagens{
+    background-color: #24f12f;
+}
+#corpomatematica{
+    background-color: #fbfafb;
+}
+#corponatureza{
+    background-color: #eb0005;
+}
+#corpotecnico{
+    background-color: #c800fc;
+}
+.titulohumanas{
+    color: #9150fa;
+    font-size: 100px;
+    text-align: center;
+}
+.imghumanas{
+    height: 150px;
+    width: auto;
+    float: left;
+}
+.paragrafo{
+padding-left: 20px;
+margin-left: 180px;
+color:#000000;
+}
+.borda{
+    border: #000;
+    border-style: groove;
+    
+}
+#linkgit img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+#githublikk{
+    color: #5929a5;
+}
